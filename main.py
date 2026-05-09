@@ -33,7 +33,7 @@ def main():
         if avgFCF is None: return
 
         # get the growth information
-        growth:float = getinfo.getGrowth(info, sym)
+        growth:float = getinfo.getGrowth(ticker, sym)
         if growth is None: return
 
         # use dcf calculation to derive an instrinic value
