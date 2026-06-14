@@ -1,2 +1,2 @@
 # Stock-DCF-Calculator
-A discounted cash flow calculator using yfinance.
+A forward p/e calculator using yfinance
